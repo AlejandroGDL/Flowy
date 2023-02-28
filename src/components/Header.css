@@ -17,8 +17,14 @@ nav img{
     margin: 10px;
 }
   
-/* Botones de navegación */
 
+/*Eliminar decoración Vinculos*/
+a{
+    text-decoration: inherit;
+    color: var(--Black);
+}
+
+/* Botones de navegación */
 .Op1 > * {
     padding: 5px;
     margin: 0px 10px;
