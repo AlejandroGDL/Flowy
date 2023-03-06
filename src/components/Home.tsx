@@ -1,9 +1,12 @@
 import Header from "./Header";
+import Banner from "./Banner";
 
 function home(){
     return(
-        <Header />
-        
+        <div className="Home">
+            <Header></Header>
+            <Banner></Banner>
+        </div>
         
     )
 
