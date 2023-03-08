@@ -1,4 +1,4 @@
-/*=====Propiedades HTML=====*/
+  /*=====Propiedades HTML=====*/
 *{
     font-family: Quicksand, system-ui, Avenir, Helvetica, Arial, sans-serif;
     box-sizing: border-box;
@@ -20,6 +20,7 @@ html{
 body{
     height: 100%;
 }
+
   /*Eliminar decoración Vinculos*/
   a{
     text-decoration: inherit;

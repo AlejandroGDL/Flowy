@@ -1,4 +1,5 @@
 import './Header.css'
+import {Link} from 'react-router-dom'
 
 function Header(){
     return(
@@ -6,14 +7,14 @@ function Header(){
         <nav>
             <img src="/src/assets/LogoFlowey.png" alt="Logotipo" />
             <div className='Op1'>
-                <a href="index.html">Inicio</a>
+                <Link to={"/"}>Inicio</Link>
                 <a href="#">Productos</a>
                 <a href="#">Nosotros</a>
             </div>
 
             <div className='Op2'>
-                <a href="register.html">Registrarse</a>
-                <a href="login.html">Iniciar sesión</a>
+                <Link to={"/Register"}>Registrarse</Link>
+                <Link to={"/Login"}>Iniciar sesión</Link>
             </div>
         </nav>
     </header>

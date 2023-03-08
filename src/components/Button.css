@@ -1,0 +1,9 @@
+.Botón{
+    border: 0px var(--Black) solid;
+    background-color: var(--Primary);
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+    font-size: 10px;
+    color: var(--White);
+}

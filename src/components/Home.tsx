@@ -7,7 +7,6 @@ function home(){
             <Header></Header>
             <Banner></Banner>
         </div>
-        
     )
 
 }

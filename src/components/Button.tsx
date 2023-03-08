@@ -1,6 +1,8 @@
-function Button(){
+import "./Button.css"
+
+function Button(Clase:any,Texto:any){
     return(
-        <button>Inicia</button>
+        <button className={Clase}>{Texto}</button>
     )
 }
 
