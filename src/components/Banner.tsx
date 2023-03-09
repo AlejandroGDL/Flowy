@@ -15,7 +15,8 @@ function Carousel (){
                     to={"/Register"}>
                     <Button 
                     Clase='Botón_Banner' 
-                    Texto='Registrate!'></Button></Link>
+                    Texto='Registrate!'
+                    Variante="No_Imagen"></Button></Link>
                 </div>
             </div>
             <div>

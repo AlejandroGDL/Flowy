@@ -6,12 +6,13 @@ type Propiedades ={
     Texto: string
 }
 
-const Button = ({Clase,Texto,Variante}:Propiedades)=>{
+const MyButton = ({Clase,Texto,Variante}:Propiedades)=>{
     return(
         <button 
-        className="{Clase} {Variante}">
+        className={Clase} 
+        id={Variante}>
         {Texto}</button>
     )
 }
 
-export default Button;
+export default MyButton;

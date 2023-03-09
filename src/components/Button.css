@@ -39,6 +39,10 @@ button{
     background-color: var(--Light_Black);
 }
 
-.Imagen{
-    background-image: url('Chevron');
+#No_Imagen{
+    background-image:none;
+}
+
+#Imagen{
+    background-image: url('src/assets/Icons/Chevron_Left.png');
 }
