@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    flex-direction: column;
+  
+    background-color: var(--Gray);
+    border: var(--LightGray) 1px solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 550px;
+  
+    gap: 50px;
+  }
+
+  /*  */
+form div:nth-child(2){
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}

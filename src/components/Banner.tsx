@@ -1,6 +1,7 @@
-import Button from "./Button";
 import "./Banner.css"
 import {Link} from 'react-router-dom'
+import { Button } from "@mui/material";
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 //Banner ó carrusel Pagina inicio
 function Carousel (){
@@ -14,9 +15,10 @@ function Carousel (){
                     <Link 
                     to={"/Register"}>
                     <Button 
-                    Clase='Botón_Banner' 
-                    Texto='Registrate!'
-                    Variante="No_Imagen"></Button></Link>
+                    variant="contained"
+                    size="large"
+                    endIcon={<ChevronRightIcon />}
+                    >Registate!</Button></Link>
                 </div>
             </div>
             <div>

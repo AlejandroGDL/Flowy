@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import Home from './components/Home'
 import Login from './Rutas/Login'
+import Register from './Rutas/Register'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { createMuiTheme, ThemeProvider } from '@mui/material'
-import { green, red } from '@mui/material/colors'
-
+import { createTheme, ThemeProvider } from '@mui/material'
 
 /*=====React Router DOM=====*/
 //Crea las rutas para nuestras paginas, mediante componentes del propio REACT
@@ -23,21 +21,21 @@ const Router = createBrowserRouter([
   },
   {
     path: '/Register',
-    element: <h1>Registro</h1>,
+    element: <Register />,
   },
 ]);
 
 /*=====Material UI=====*/
 //Modificar la paleta de colores Material MUI
 
-const Tema = createMuiTheme({
+const Tema = createTheme({
   palette:{
     primary: {
       main: '#465A52',
     },
     secondary: {
-      main: '#fff',
-    }
+      main: '#000000',
+    },
   }
 });
 
