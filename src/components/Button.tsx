@@ -1,8 +1,16 @@
 import "./Button.css"
 
-function Button(Clase:any,Texto:any){
+type Propiedades ={
+    Clase: string
+    Variante: string
+    Texto: string
+}
+
+const Button = ({Clase,Texto,Variante}:Propiedades)=>{
     return(
-        <button className={Clase}>{Texto}</button>
+        <button 
+        className="{Clase} {Variante}">
+        {Texto}</button>
     )
 }
 

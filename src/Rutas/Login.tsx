@@ -1,9 +1,12 @@
 import Button from "../components/Button"
 import "../Rutas/Login.css"
+import {Link} from 'react-router-dom'
+
 function Login(){
 
     return(
         <article>
+            <Link to={"/"}><Button Clase="Botón_Tertiary" Texto="Regresar" Variante="Imagen"></Button></Link>
             <div>
             <img src="/src/assets/LoginVector.png" alt="Login Vector" />    
             </div>

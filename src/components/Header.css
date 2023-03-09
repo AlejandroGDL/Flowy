@@ -11,23 +11,32 @@ nav{
 
 /* Logotipo Atributos */
 nav img{
-    width: 80px;
+    width: 80px;    
     height: 50px;
 
-    margin: 10px;
+    margin-left: 10px;
 }
-  
 
-/*Eliminar decoración Vinculos*/
-a{
-    text-decoration: inherit;
-    color: var(--Black);
+nav div{
+    width: 300px;
+}
+
+/* Contenedor Botones de navegación */
+.Op1{
+    display: flex;
+    justify-content: center;
 }
 
 /* Botones de navegación */
 .Op1 > * {
     padding: 5px;
     margin: 0px 10px;
+}
+
+/* Contenedor Botones Usuarios */
+.Op2{
+    display: flex;
+    justify-content:end;
 }
 
 /* Botones Usuarios */

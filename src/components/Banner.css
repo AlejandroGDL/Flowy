@@ -1,23 +1,45 @@
+/* Atributos Generales Banner */
 .Banner{
     display: flex;
     flex-direction: row;
   
-    justify-content: center;
+    justify-content: space-evenly;
   
     padding: 15px;
-  
-  }
-  
-  .Banner div:nth-child(1){
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
+}
 
-  button{
-    width: 210px;
-    height: 50px;
-    background-color: var(--Primary);
+/* Atributos Primer Contenedor */
+.Banner div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-    border: 0px;
-  }
+  margin-top: 50px;
+  text-align:left;
+}
+
+/* Atributos Título Banner */
+h1{
+  width: 350px;
+  text-align: left;
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--Black);
+}
+
+/* Atributos Parrafó */
+p{
+  width: 350px;
+  color: var(--Black);
+
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* Contenedor SOLO botón para centrarlo */
+.Con_Botón{
+  height: calc(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
