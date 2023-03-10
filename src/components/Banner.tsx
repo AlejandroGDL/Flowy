@@ -9,7 +9,7 @@ function Carousel (){
     return(
         <div className="Banner">
             <div>
-                <h1>Haz tu Plantas Inteligentes</h1>
+                <h1 className="Titulo_B">Haz tu Plantas Inteligentes</h1>
                 <p>Con nuestro Kit para plantas podrás tener un mejor control de tus plantas</p>
                 <div className="Con_Botón">
                     <Link 

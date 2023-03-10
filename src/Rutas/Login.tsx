@@ -14,7 +14,7 @@ function Login(){
                 <img src="/src/assets/LoginVector.png" alt="Login Vector" />    
                 <a className="Divider"></a>
                 <div className="FormLogin">
-                    <form action="" method="post">
+                    <form action="" method="post" className="Form_Login">
                         <h2>¡Bienvenido!</h2>
                         <div className="Inputs">
                             <p>Correo Electronico:</p>

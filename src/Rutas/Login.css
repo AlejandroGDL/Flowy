@@ -42,7 +42,7 @@
   }
   
   /* Atributos Formulario */
-  form{
+  .Form_Login{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,12 +58,12 @@
   }
   
   /* Subrayar Registrate Aquí */
-  form a{
+  .Form_Login a{
     text-decoration: underline;
   }
   
   /* Atributos Titúlo */
-  form h2{
+  .Form_Login h2{
     font-size: 36px;
   }
   

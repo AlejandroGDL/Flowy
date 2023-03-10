@@ -10,13 +10,39 @@ function Register(){
                 <Link 
                 to={"/"}><Button variant="contained" startIcon={<ChevronLeftIcon />}>Regresar</Button></Link>
             </div>
-            <h1>Registro</h1>
-            <form action="" method="post">
+            <div className='Titulo_R'>
+                <h1>Registro</h1>
+            </div>
+            
+            <form action="" method="post" className='Form_Register'>
                 <div>
-                    <div></div>
-                    <div></div>
+                    <div className='Inputs_R'>
+                        <div>
+                            <p>Nombre:</p>
+                            <input type="text" />
+                        </div>
+                        
+                        <div>
+                            <p>Apellidos:</p>
+                            <input type="text" />
+                        </div>
+                        
+                        <div>
+                            <p>Correo Electronico:</p>
+                            <input type="email" name="" id="" />
+                        </div>
+                        
+                        <div>
+                            <p>Contraseña:</p>
+                            <input type="password" name="" id="" />
+                        </div>
+                    </div>
+                    <div className='Datos_R'>
+                        <img src="src/assets/LogoFlowey.png" alt="Logotipo Flowey" />
+                        <p>Tus datos no serán compartidos con ningún tercero</p>
+                    </div>
                 </div>
-                <a className='Divider'></a>
+                <a className='Divider_R'></a>
                 <div>
                     <p>Al Registrate aceptas nuestros Terminos y Condiciones</p>
                     <Button variant='contained' type='submit'> Registrate</Button>

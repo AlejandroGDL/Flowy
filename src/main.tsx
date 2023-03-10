@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from './components/Home'
-import Login from './Rutas/Login'
-import Register from './Rutas/Register'
+import Login from './Rutas/Login' //Overplap
+import Register from './Rutas/Register' //Overlap
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { createTheme, ThemeProvider } from '@mui/material'
 
