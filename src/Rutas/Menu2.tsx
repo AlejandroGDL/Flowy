@@ -25,52 +25,25 @@ function Menu2 (){
     };
 
     return(
-    <List
-      sx={{ width: '100%', maxWidth: 360, height:'100%', bgcolor: 'background.paper'}}
-      component="nav"
-      aria-labelledby="nested-list-subheader"
-      subheader={
-        <ListSubheader component="div" id="nested-list-subheader">
-          Flowy
-        </ListSubheader>
-      }
-        >
-      <ListItemButton>
-        <ListItemIcon>
-          <SendIcon />
-        </ListItemIcon>
-        <ListItemText primary="Monitorear" />
-      </ListItemButton>
-      <ListItemButton onClick={handleClick}>
-        <ListItemIcon>
-          <InboxIcon />
-        </ListItemIcon>
-        <ListItemText primary="Tus plantas" />
-        {open ? <ExpandLess /> : <ExpandMore />}
-      </ListItemButton>
-      <Collapse in={open} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItemButton sx={{ pl: 4 }}>
-            <ListItemIcon>
-              <StarBorder />
-            </ListItemIcon>
-            <ListItemText primary="Agregar" />
-          </ListItemButton>
-          <ListItemButton sx={{ pl: 4 }}>
-            <ListItemIcon>
-              <StarBorder />
-            </ListItemIcon>
-            <ListItemText primary="Editar" />
-          </ListItemButton>
-          <ListItemButton sx={{ pl: 4 }}>
-            <ListItemIcon>
-              <StarBorder />
-            </ListItemIcon>
-            <ListItemText primary="Eliminar" />
-          </ListItemButton>
-        </List>
-      </Collapse>
-    </List>
+    <div className="Contenedor_M">
+      <aside className="Sidebar_M"></aside>
+
+      <article className="Cuerpo_M">
+          <div><img src="" alt="" /></div>
+
+          <div>
+              <Button>Inicio</Button>
+              <Button>Tus plantas</Button>
+              <Divider />
+              <Button>Cerrar sesión</Button>
+          </div>
+          
+
+          <div>
+              <Avatar />
+          </div>
+      </article>
+    </div>
 
     );
 }
