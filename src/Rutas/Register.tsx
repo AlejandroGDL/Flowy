@@ -2,6 +2,7 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import '../Rutas/Register.css'
+import TextField from '@mui/material/TextField';
 
 function Register(){
     return(
@@ -15,26 +16,30 @@ function Register(){
             </div>
             
             <form action="" method="post" className='Form_Register'>
-                <div>
+                <div className='Container_Form'>
                     <div className='Inputs_R'>
                         <div>
-                            <p>Nombre:</p>
-                            <input type="text" />
+                            {/* <p>Nombre:</p> */}
+                            {/* <input type="text" id='Text_R' /> */}
+                            <TextField type='Text' id='Text_R' label="Nombre" variant="filled" margin="normal"/>
                         </div>
                         
                         <div>
-                            <p>Apellidos:</p>
-                            <input type="text" />
+                            {/* <p>Apellidos:</p>
+                            <input type="text" id="Text_R" /> */}
+                            <TextField type='Text' id='Text_R' label="Apellidos" variant="filled" margin="normal"/>
                         </div>
                         
                         <div>
-                            <p>Correo Electronico:</p>
-                            <input type="email" name="" id="" />
+                            {/* <p>Correo Electronico:</p>
+                            <input type="email" name="" id="Text_R" /> */}
+                            <TextField type='Email' id='Text_R' label="Correo Electronico" variant="filled" margin="normal"/>
                         </div>
                         
                         <div>
-                            <p>Contraseña:</p>
-                            <input type="password" name="" id="" />
+                            {/* <p>Contraseña:</p>
+                            <input type="password" name="" id="Text_R" /> */}
+                            <TextField type='password' id='Text_R' label="Contraseña" variant="filled" margin="normal"/>
                         </div>
                     </div>
                     <div className='Datos_R'>
@@ -42,10 +47,12 @@ function Register(){
                         <p>Tus datos no serán compartidos con ningún tercero</p>
                     </div>
                 </div>
-                <a className='Divider_R'></a>
-                <div>
-                    <p>Al Registrate aceptas nuestros Terminos y Condiciones</p>
-                    <Button variant='contained' type='submit'> Registrate</Button>
+                <div className='Container_Divider_R'>
+                    <a className='Divider_R'></a>
+                </div>
+                <div className='Footer_R'>
+                    <p>Al Registrate aceptas nuestros <Link to={"/"}><span>Terminos y Condiciones</span></Link></p>
+                    <Button variant='contained' type='submit'>Registrate</Button>
                 </div>
             </form>
             

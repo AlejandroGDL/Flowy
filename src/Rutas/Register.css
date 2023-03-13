@@ -1,48 +1,108 @@
 
-
+/* Atributos Formulario */
 .Form_Register{
   display: flex;
   flex-direction: column;
   
-  background-color: var(--Gray);
-  border: var(--LightGray) 1px solid;
   border-radius: 10px;
   
   gap: 50px;
+  margin: 15px;
 }
 
-/* .Form_Register div:nth-child(1){
+/* Atributos Contenedor Formulario  */
+.Container_Form{
   display: flex;
-  flex-wrap: wrap;
-} */
+  flex-direction: row;
 
+  margin: 2% 0px;
+}
+
+/* Atrubutos Contenedor TEXBOXES */
 .Inputs_R{
   display: flex;
   flex-direction: column;
+
+  width: 50%;
+
+  margin: 20px;
 }
 
 
-/* Divisor */
-.Divider_R{
-  background-color: blue;
-  width: 80%;
-  height: 2px;
+.Inputs_R div{
+  margin: 10px 0px;
 }
 
+/* Atributos Contenedor EXTRA */
+.Datos_R{
+  display: flex;
+  flex-direction: column;
 
+  align-items: center;
+
+  width: 50%;
+}
+
+/* Atributos Contenedor EXTRA Parrafó */
+.Datos_R p{
+  width: auto;
+}
+
+/* Atributos Contenedor Titulo Registro */
 .Titulo_R{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+}
 
+/* Atributos Titulo Registro */
+.Titulo_R h1{
+  font-weight: 500;
   font-size: 48px;
 }
 
-.Titulo_R h1{
-  font-weight: 500;
-}
-
+/* Atributos Imagen Logo */
 .Datos_R img{
   width: 100px;
   height: 60px;
+}
+
+/* Contenedor Divisor */
+.Container_Divider_R{
+  display: flex;
+  justify-content: center;
+}
+
+/* Divisor */
+.Divider_R{
+  background-color: var(--LightGray);
+  width: 100%;
+  height: 2px;
+}
+
+/* Atributos Textboxes */
+#Text_R{
+  width: 600px;
+  height: 30px;
+
+}
+
+
+/* Pie pagína Registro */
+.Footer_R{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Parrafo Pie de pagina */
+.Footer_R p{
+  width: auto;
+}
+
+/* Subrayar Terminos y condiciones */
+.Footer_R p span{
+  text-decoration: underline;
 }
