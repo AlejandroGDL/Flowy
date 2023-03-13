@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import '../Rutas/Register.css'
 import TextField from '@mui/material/TextField';
+import CookieIcon from '@mui/icons-material/Cookie';
 
 function Register(){
     return(
@@ -51,7 +52,7 @@ function Register(){
                     <a className='Divider_R'></a>
                 </div>
                 <div className='Footer_R'>
-                    <p>Al Registrate aceptas nuestros <Link to={"/"}><span>Terminos y Condiciones</span></Link></p>
+                    <p>Al Registrate aceptas nuestros <Link to={"/"}><span>Terminos y Condiciones</span></Link> <CookieIcon /></p>
                     <Button variant='contained' type='submit'>Registrate</Button>
                 </div>
             </form>
